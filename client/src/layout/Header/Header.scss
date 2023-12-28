@@ -1,0 +1,28 @@
+.custom__navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  display: flex;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  &__right {
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+      li {
+        font-size: 18px;
+        a {
+          color: black;
+          text-decoration: none;
+          transition: 0.2s linear;
+          &:hover {
+            color: aqua;
+          }
+        }
+      }
+    }
+  }
+}
